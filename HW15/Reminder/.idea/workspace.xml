@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5cdf190-d5fd-439b-8a32-d55a93069e43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/todo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/moduls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -70,6 +80,7 @@
       <updated>1673206953661</updated>
       <workItem from="1673206992858" duration="668000" />
       <workItem from="1673215370043" duration="1387000" />
+      <workItem from="1673266840035" duration="261000" />
     </task>
     <servers />
   </component>
