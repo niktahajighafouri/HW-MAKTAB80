@@ -1,0 +1,18 @@
+SELECT Max(Cont.Price),Coa.Coach_name 
+FROM Contracts AS Cont 
+Join Coaches AS Coa
+ON Cont.Person_id = Coa.Coach_id
+WHERE Coa.Role = "Coach";
+ 
+SELECT Cont.Season_id, Play.Player_name, Max(Cont.Price)
+FROM Contracts AS Cont 
+JOIN Players AS Play
+ON Cont.Person_id = Play.Player_id;
+
+SELECT C.City,T.Team_name 
+FROM Teams AS T
+JOIN City AS C
+ON C.City_id = T.City_id
+ORDERD BY C.City;
+
+

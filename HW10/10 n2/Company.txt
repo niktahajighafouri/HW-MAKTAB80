@@ -1,0 +1,30 @@
+CREATE DATABASE Company;
+
+CREATE TABLE Employee(EmployeeID serial Primary Key,
+Name text,
+Department text,
+Salary int 
+);
+INSERT INTO Employee (Name,Department,Salary)
+VALUES
+("ali","D1",1000),
+("hadi","D2",980),
+("ali","D3",1500),
+("Hoda","D1",1200),
+("sara","D4",900);
+
+SELECT * FROM Employee
+WHERE Name = "ali";
+
+SELECT * FROM Employee
+WHERE Salary < 1000;
+
+SELECT AVG(Salary) as Avg
+FROM Employee
+GROUP BY Department;
+
+BACKUP DATABASE Company
+TO DISK="home\Document\Company.bak";
+
+RESTORE DATABASE Company
+FROM DISK="home\Document\Company.bak";

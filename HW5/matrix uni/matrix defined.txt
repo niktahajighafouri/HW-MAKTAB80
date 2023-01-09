@@ -1,0 +1,40 @@
+* class matrix:
+ Methods
+    -------
+    create matrix()
+    len ()
+    add()--s
+    transpose()--s
+    multiply()--s
+    eq()--s
+    num*mat()--s
+    __str__()
+    det bast()--edit
+    minus()--add
+    copy_matrix()--add
+    inverse?
+
+*class squre:
+ Methods
+    -------
+    principal_diag()--s
+    secondary_diag()--s
+    trace()--s
+    lu()--s
+    det()--s
+    like_a_gauss--edit
+    inverse--add
+    e(-1)--?
+?
+*class Lin_Sys_Of_Equ:
+ Methods
+    -------
+    def set_mul()--s
+    def set_known_val()--s
+    def solver()--s
+    def __str__()--s
+
+*menu:
+    create matrix--edit
+    len matrix
+    exit

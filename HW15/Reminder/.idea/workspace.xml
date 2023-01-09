@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5cdf190-d5fd-439b-8a32-d55a93069e43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/todo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/moduls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f5cdf190-d5fd-439b-8a32-d55a93069e43" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,11 +75,22 @@
       <updated>1673206953661</updated>
       <workItem from="1673206992858" duration="668000" />
       <workItem from="1673215370043" duration="1387000" />
-      <workItem from="1673266840035" duration="261000" />
+      <workItem from="1673266840035" duration="393000" />
     </task>
+    <task id="LOCAL‎−۰۰۰۰۱" summary="004:view and task file created">
+      <created>1673267139092</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
+      <updated>1673267139092</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="004:view and task file created" />
+    <option name="LAST_COMMIT_MESSAGE" value="004:view and task file created" />
   </component>
 </project>

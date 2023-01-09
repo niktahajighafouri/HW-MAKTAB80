@@ -1,0 +1,59 @@
+CREATE DATABASE BookPublish;
+
+CREATE TABLE Books(
+BookID Serial,
+Title Text,
+Price Int
+);
+
+CREATE TABLE Publishers(
+PublisherID Serial,
+PublisherName Text
+);
+
+CREATE TABLE Writers(
+WriterID serial,
+WriterName Text
+);
+
+CREATE TABLE Book_Bublisher(
+BooKID Int REFRENCES Books(BookID),
+PublisherID Int REFRENCES Publishers(PublisherID)
+);
+
+CREATE TABLE Book_Writer(
+BooKID Int REFRENCES Books(BookID),
+WriterID Int REFRENCES Writers(WriterID)
+);
+
+SELECT WriterName 
+FROM Writers 
+WHERE WriterID IN(
+SELECT WriterID 
+FROM Book_Writer 
+WHERE BookID=
+(SELECT BookID 
+FROM Books
+WHERE Title = "X")
+);
+
+SELECT COUNT(DISTINCT BookID)
+FROM Book_Bublisher
+WHERE PublisherID = (
+SELECT PublisherID 
+WHERE PublisherName = "Y"
+);
+
+SELECT MAX(Price) 
+FROM Books
+WHERE BookID IN(
+SELECT BookID 
+FROM Book_Writer
+WHERE WriterID =(
+SELECT WriterID
+FROM Writers
+WHERE WriterName="Z")
+);
+
+
+
